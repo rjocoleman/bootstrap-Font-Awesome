@@ -1,4 +1,4 @@
-[Twitter Bootstrap](http://twitter.github.com/bootstrap) and [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
+[Twitter Bootstrap](http://twitter.github.com/bootstrap) & [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
 ======
 
 I love these two awesome frameworks and CodeKit makes it easy to use for any of my projects.
@@ -10,23 +10,25 @@ Setting up with LESS and [CodeKit](http://incident57.com/codekit/)
 2. Create a new project directory. *Include all of your HTML, CSS, and LESS directories.*
 3. In CodeKit, press **Command-N** to create a new project, and point to that new project directory.
 4. Copy the font directory into your project.
-5. Create a new .less document and put this at the top of your code:
+5. Create a new .less file and add this to the top of your code:
 	
 	```css
 		
-		@import: 'bootstrap.less'; //Import all the things!
+		//Import all the things!
+		@import: 'bootstrap.less';
 
-		@fontAwesomePath: '../font'; // Ensure this is the correct relative path to where you placed font directory
+		// Ensure this is the correct relative path to the font directory
+		@fontAwesomePath: '../font'; 
 		
 	```
-6. Hit **Save** and CodeKit will compile your LESS into CSS and you should be good to go with Bootstrap and Font-Awesome.
+6. Hit **Save** and CodeKit will compile your LESS into CSS and you should be good to go with Bootstrap and Font-Awesome!
 
 
 Twitter Bootstrap
 ------
 Bootstrap provides simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. In other words, it's a front-end toolkit for faster, more beautiful web development. It's created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat) at Twitter.
 
-To get started, checkout http://twitter.github.com/bootstrap!
+Documentation: http://twitter.github.com/bootstrap
 
 [@TwBootstrap](http://twitter.com/TwBootstrap)
 
@@ -35,11 +37,11 @@ Font Awesome 2.0
 ------
 The full suite of pictographic icons, examples, and documentation can be found at:
 
-http://fortawesome.github.com/Font-Awesome/
+Documentation:  http://fortawesome.github.com/Font-Awesome/
 
 [@fortaweso_me](http://twitter.com/fortaweso_me)
 
-Contact
+Contact Me
 ------
 - [marty@martylouis.com](mailto:marty@martylouis.com)
 - [@martylouis](http://twitter.com/martylouis)

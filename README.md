@@ -28,7 +28,7 @@ Twitter Bootstrap
 ------
 Bootstrap provides simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. In other words, it's a front-end toolkit for faster, more beautiful web development. It's created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat) at Twitter.
 
-Documentation: http://twitter.github.com/bootstrap
+Get started at: http://twitter.github.com/bootstrap
 
 [@TwBootstrap](http://twitter.com/TwBootstrap)
 
@@ -37,7 +37,7 @@ Font Awesome 2.0
 ------
 The full suite of pictographic icons, examples, and documentation can be found at:
 
-Documentation:  http://fortawesome.github.com/Font-Awesome/
+http://fortawesome.github.com/Font-Awesome/
 
 [@fortaweso_me](http://twitter.com/fortaweso_me)
 

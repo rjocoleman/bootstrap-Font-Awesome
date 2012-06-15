@@ -9,11 +9,15 @@ Setting up with LESS and [CodeKit](http://incident57.com/codekit/)
 1. In CodeKit, press **Command-F** to create a new framework, and point to the bootstrap directory.
 2. Create a new project directory. *Include all of your HTML, CSS, and LESS directories.*
 3. In CodeKit, press **Command-N** to create a new project, and point to that new project directory.
-4. Copy the font directory into your project and ensure it's placed relative to your CSS: `src: url('../font/fontawesome-webfont...');`.
-5. Create a new .less document and simply write
+4. Copy the font directory into your project.
+5. Create a new .less document and put this at the top of your code:
 	
 	```css
-		@import: 'bootstrap.less';
+		
+		@import: 'bootstrap.less'; //Import all the things!
+
+		@fontAwesomePath: '../font'; // Ensure this is the correct relative path to where you placed font directory
+		
 	```
 6. Hit **Save** and CodeKit will compile your LESS into CSS and you should be good to go with Bootstrap and Font-Awesome.
 

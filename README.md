@@ -9,11 +9,11 @@ Setting up with LESS and [CodeKit](http://incident57.com/codekit/)
 1. In CodeKit, press **Command-F** to create a new framework, and point to the bootstrap directory.
 2. Create a new project directory. *Include all of your HTML, CSS, and LESS directories.*
 3. In CodeKit, press **Command-N** to create a new project, and point to that new project directory.
-4. Copy the font directory into your project and ensure it's placed relative to your CSS `src: url('../font/fontawesome-webfont...');`.
+4. Copy the font directory into your project and ensure it's placed relative to your CSS: `src: url('../font/fontawesome-webfont...');`.
 5. Create a new .less document and simply write
 	
 	```css
-		@import: 'bootstrap.less'
+		@import: 'bootstrap.less';
 	```
 6. Hit **Save** and CodeKit will compile your LESS into CSS and you should be good to go with Bootstrap and Font-Awesome.
 
@@ -45,7 +45,7 @@ Contact
 
 Copyright and licenses
 ---------------------
-##Twitter Bootstrap
+###Twitter Bootstrap
 Copyright 2012 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,7 +60,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-##Font-Awesome
+###Font-Awesome
 Version 2.0 of the Font Awesome font, CSS, and LESS files are licensed under CC BY 3.0:
 http://creativecommons.org/licenses/by/3.0/
 A mention of 'Font Awesome - http://fortawesome.github.com/Font-Awesome'

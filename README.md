@@ -33,14 +33,12 @@ The full suite of pictographic icons, examples, and documentation can be found a
 
 http://fortawesome.github.com/Font-Awesome/
 
--> [@fortaweso_me](http://twitter.com/fortaweso_me)
+[@fortaweso_me](http://twitter.com/fortaweso_me)
 
 Contact
 ------
 - [marty@martylouis.com](mailto:marty@martylouis.com)
 - [@martylouis](http://twitter.com/martylouis)
-
-------
 
 
 Copyright and licenses

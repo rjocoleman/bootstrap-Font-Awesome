@@ -15,7 +15,7 @@ Setting up with LESS and [CodeKit](http://incident57.com/codekit/)
 	```css
 		
 		//Import all the things!
-		@import: 'bootstrap.less';
+		@import 'bootstrap.less';
 
 		// Ensure this is the correct relative path to the font directory
 		@fontAwesomePath: '../font'; 
